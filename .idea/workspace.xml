@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2788e72-5ce0-4356-8399-69732be45b9f" name="Default Changelist" comment="" />
+    <list default="true" id="c2788e72-5ce0-4356-8399-69732be45b9f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/day_1/SelectSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day_1/SelectSort.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607239434785</updated>
-      <workItem from="1607239436858" duration="4594000" />
+      <workItem from="1607239436858" duration="5213000" />
     </task>
     <servers />
   </component>
@@ -111,7 +113,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/day_1/SelectSort.java</url>
-          <line>26</line>
+          <line>21</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
