@@ -1,5 +1,7 @@
 package util;
 
+import day_3.BinarySearch;
+
 import java.util.Arrays;
 import java.util.Random;
 
@@ -19,6 +21,31 @@ public class ArrayUtil {
             arr[i] = (int)(Math.random() * size);
         }
         return arr;
+    }
+
+    public static void randomInitArr(int size){
+        int[] arr = randomInit(size);
+        Arrays.sort(arr);
+        ArrayUtil.arr = arr;
+    }
+
+
+    public static void judge(int size){
+        randomInitArr(size);
+        for (int i : arr) {
+            if (BinarySearch.binarySearch(ArrayUtil.arr, i) != Arrays.binarySearch(ArrayUtil.arr, i)){
+                System.out.println("很遗憾，回答错误...");
+                break;
+            }
+        }
+        System.out.println("非递归方式回答正确...");
+        for (int i : arr) {
+            if (BinarySearch.binarySearchDfs(ArrayUtil.arr, i) != Arrays.binarySearch(ArrayUtil.arr, i)){
+                System.out.println("很遗憾，递归方式回答错误...");
+                break;
+            }
+        }
+        System.out.println("递归方式回答正确...");
     }
 
 
