@@ -35,14 +35,14 @@ public class ArrayUtil {
         for (int i : arr) {
             if (BinarySearch.binarySearch(ArrayUtil.arr, i) != Arrays.binarySearch(ArrayUtil.arr, i)){
                 System.out.println("很遗憾，回答错误...");
-                break;
+                return;
             }
         }
         System.out.println("非递归方式回答正确...");
         for (int i : arr) {
             if (BinarySearch.binarySearchDfs(ArrayUtil.arr, i) != Arrays.binarySearch(ArrayUtil.arr, i)){
                 System.out.println("很遗憾，递归方式回答错误...");
-                break;
+                return;
             }
         }
         System.out.println("递归方式回答正确...");
