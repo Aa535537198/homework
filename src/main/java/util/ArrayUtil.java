@@ -23,8 +23,11 @@ public class ArrayUtil {
         return arr;
     }
 
-    public static void randomInitArr(int size){
-        int[] arr = randomInit(size);
+    private static void randomInitArr(int size){
+        int[] temp = randomInit(size);
+        int[] arr = Arrays.stream(temp)
+                .distinct()
+                .toArray();
         Arrays.sort(arr);
         ArrayUtil.arr = arr;
     }

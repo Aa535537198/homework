@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2788e72-5ce0-4356-8399-69732be45b9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/day_3/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/ArrayUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/ArrayUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/day_2/InsertSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day_2/InsertSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/ArrayUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/ArrayUtil.class" afterDir="false" />
-    </list>
+    <list default="true" id="c2788e72-5ce0-4356-8399-69732be45b9f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +118,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607239434785</updated>
       <workItem from="1607239436858" duration="10632000" />
-      <workItem from="1607304447066" duration="13221000" />
+      <workItem from="1607304447066" duration="16472000" />
     </task>
     <servers />
   </component>
