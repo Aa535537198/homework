@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2788e72-5ce0-4356-8399-69732be45b9f" name="Default Changelist" comment="" />
+    <list default="true" id="c2788e72-5ce0-4356-8399-69732be45b9f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/day_2/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day_2/InsertSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day_3/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day_3/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/ArrayUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/ArrayUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day_2/InsertSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day_2/InsertSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day_3/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day_3/BinarySearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/ArrayUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/ArrayUtil.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +125,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607239434785</updated>
       <workItem from="1607239436858" duration="10632000" />
-      <workItem from="1607304447066" duration="16472000" />
+      <workItem from="1607304447066" duration="20075000" />
     </task>
     <servers />
   </component>
@@ -145,6 +152,14 @@
           <url>file://$PROJECT_DIR$/src/main/java/day_1/SelectSort.java</url>
           <line>21</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/util/ArrayUtil.java</url>
+          <line>35</line>
+          <properties class="util.ArrayUtil" method="judge">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -18,27 +18,25 @@ import java.util.Arrays;
  *      则 mid = 5， arr[mid] =  6, 则为需要读取的数值， 则返回值为 5；
  *
  */
+
 public class BinarySearch {
+    private static int[] arr;
     public static void main(String[] args) {
-        ArrayUtil.judge(1000);
+    }
+
+    public int[] getArr() {
+        return arr;
+    }
+
+    public void setArr(int[] arr) {
+        this.arr = arr;
     }
 
     /**
      * 非递归方式进行二分查找
      */
     public static int binarySearch(int[] arr, int target){
-        int l = 0;
-        int r = arr.length - 1;
-        while (l <= r){
-            int mid = l + (r - l) / 2;
-            if (arr[mid] > target){
-                r = mid - 1;
-            }else if (arr[mid] < target){
-                l = mid + 1;
-            }else {
-                return mid;
-            }
-        }
+
         return -1;
     }
 
@@ -50,17 +48,6 @@ public class BinarySearch {
     }
 
     public static int help(int[] arr, int target, int left, int right){
-        if (left > right){
-            return -1;
-        }
-        int mid = left + (right - left) / 2;
-        if (arr[mid] > target){
-            return help(arr, target, left, mid - 1);
-        }else if (arr[mid] < target) {
-            return help(arr, target, mid + 1, right);
-        }else {
-            return mid;
-        }
-
+        return -1;
     }
 }

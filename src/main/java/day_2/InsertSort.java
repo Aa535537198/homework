@@ -19,7 +19,7 @@ import util.ArrayUtil;
 public class InsertSort {
 
     public static void main(String[] args) {
-        int[]  arr = ArrayUtil.randomInit(20000);
+        int[]  arr = ArrayUtil.randomInit(20);
         ArrayUtil.setArr(arr);
         ArrayUtil.judge(insert(arr));
     }

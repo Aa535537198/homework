@@ -57,12 +57,14 @@ public class ArrayUtil {
         for (int i = 0; i < arr1.length - 1; i++) {
             if (arr1[i] > arr1[i + 1]){
                 System.out.println("回答错误");
+                return;
             }
         }
         if (judgeHelper(arr1)) { System.out.println("回答正确"); }
     }
 
     public static boolean judgeHelper(int[] arr) {
+        print(arr);
         Arrays.sort(ArrayUtil.arr);
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] != ArrayUtil.getArr()[i]){
@@ -81,7 +83,10 @@ public class ArrayUtil {
     }
 
     public static void setArr(int[] arr) {
-        ArrayUtil.arr = arr;
+        ArrayUtil.arr = new int[arr.length];
+        for (int i = 0; i < ArrayUtil.arr.length; i++) {
+            ArrayUtil.arr[i] = arr[i];
+        }
     }
     private static int[] getArr() {
         return arr;
