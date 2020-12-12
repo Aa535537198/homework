@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2788e72-5ce0-4356-8399-69732be45b9f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/day_2/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day_2/InsertSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day_3/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day_3/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/ArrayUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/ArrayUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/day_2/InsertSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day_2/InsertSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day_4/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/TreeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/homework.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/day_3/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day_3/BinarySearch.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/util/ArrayUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/ArrayUtil.class" afterDir="false" />
     </list>
@@ -38,6 +38,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
@@ -52,13 +55,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinarySearch">
-    <configuration name="ArrayUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="util.ArrayUtil" />
+  <component name="RunManager" selected="Application.BinaryTree">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day_3.BinarySearch" />
       <module name="homework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="util.*" />
+          <option name="PATTERN" value="day_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day_3.BinarySearch" />
+    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day_4.BinaryTree" />
       <module name="homework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day_3.*" />
+          <option name="PATTERN" value="day_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +108,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TreeUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="util.TreeUtil" />
+      <module name="homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryTree" />
+        <item itemvalue="Application.TreeUtil" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.InsertSort" />
         <item itemvalue="Application.SelectSort" />
-        <item itemvalue="Application.ArrayUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -126,6 +143,9 @@
       <updated>1607239434785</updated>
       <workItem from="1607239436858" duration="10632000" />
       <workItem from="1607304447066" duration="20075000" />
+      <workItem from="1607393701279" duration="5985000" />
+      <workItem from="1607481056703" duration="12649000" />
+      <workItem from="1607698132090" duration="1292000" />
     </task>
     <servers />
   </component>
@@ -152,6 +172,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/day_1/SelectSort.java</url>
           <line>21</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/day_4/BinaryTree.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/util/ArrayUtil.java</url>
