@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2788e72-5ce0-4356-8399-69732be45b9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/day_4/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/TreeUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/homework.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/day_3/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day_3/BinarySearch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/first.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/second.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day_5/mid/529.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day_5/mid/LeetCode129.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day_5/mid/LeetCode529.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day_5/simple/04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day_5/simple/257.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day_5/simple/872.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day_5/simple/LeetCode04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day_5/simple/LeetCode257.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day_5/simple/LeetCode872.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day_2/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day_2/InsertSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/ArrayUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/ArrayUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day_2/InsertSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day_2/InsertSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/util/ArrayUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/ArrayUtil.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -26,6 +37,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\usr\idea\repository" />
+        <option name="userSettingsFile" value="D:\usr\idea\setting.xml" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -33,15 +50,25 @@
     </option>
   </component>
   <component name="ProjectId" id="1lH1veJmvhxQn3evu3wjedwuvkT" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="D:/代双杰/HospitalManager" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\software\homework\src\main\java\day_5\mid" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -55,13 +82,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinaryTree">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day_3.BinarySearch" />
+  <component name="RunManager" selected="Application.C">
+    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day_2.A" />
       <module name="homework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day_3.*" />
+          <option name="PATTERN" value="day_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,8 +109,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day_2.InsertSort" />
+    <configuration name="C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day_2.C" />
       <module name="homework" />
       <extension name="coverage">
         <pattern>
@@ -95,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day_1.SelectSort" />
+    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day_2.InsertSort" />
       <module name="homework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day_1.*" />
+          <option name="PATTERN" value="day_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.C" />
+        <item itemvalue="Application.A" />
+        <item itemvalue="Application.InsertSort" />
         <item itemvalue="Application.BinaryTree" />
         <item itemvalue="Application.TreeUtil" />
-        <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.InsertSort" />
-        <item itemvalue="Application.SelectSort" />
       </list>
     </recent_temporary>
   </component>
@@ -146,6 +173,14 @@
       <workItem from="1607393701279" duration="5985000" />
       <workItem from="1607481056703" duration="12649000" />
       <workItem from="1607698132090" duration="1292000" />
+      <workItem from="1607750828297" duration="618000" />
+      <workItem from="1608030513479" duration="2479000" />
+      <workItem from="1608082773158" duration="2956000" />
+      <workItem from="1608202147963" duration="2956000" />
+      <workItem from="1608210478982" duration="2209000" />
+      <workItem from="1608369209180" duration="3945000" />
+      <workItem from="1608431827734" duration="4291000" />
+      <workItem from="1608512861346" duration="16102000" />
     </task>
     <servers />
   </component>
@@ -165,6 +200,9 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -177,6 +215,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/day_4/BinaryTree.java</url>
           <line>58</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/day_2/InsertSort.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/util/ArrayUtil.java</url>

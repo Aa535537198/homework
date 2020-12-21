@@ -25,7 +25,69 @@ public class InsertSort {
     }
 
     private static int[] insert(int[] arr) {
+        for (int i = 1; i < arr.length; i++) {
+            int temp = arr[i];
+            int j = i;
+            while (j > 0){
+                if (arr[j - 1] > temp){
+                    arr[j] = arr[j - 1];
+                    j-=1;
+                }else {
+
+                    arr[j] = temp;
+                    break;
+                }
+            }
+
+
+        }
+        ArrayUtil.print(arr);
         return arr;
     }
 
 }
+
+
+interface A {
+
+}
+
+
+class C{
+
+    public static void main(String[] args) {
+        int a = 1;
+        int b = 2;
+        new C().swap(a,b);
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+        User user = new User();
+        System.out.println(user);
+        new C().change(user);
+        System.out.println(user);
+    }
+
+    public void swap(int a, int b) {
+        int temp = a;
+        a = b;
+        b = temp;
+
+    }
+    public void change(User user) {
+        user = null;
+    }
+}
+class User{
+    public String name = "name";
+    public String age = "age";
+
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "name='" + name + '\'' +
+                ", age='" + age + '\'' +
+                '}';
+    }
+}
+

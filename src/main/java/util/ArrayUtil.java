@@ -64,7 +64,6 @@ public class ArrayUtil {
     }
 
     public static boolean judgeHelper(int[] arr) {
-        print(arr);
         Arrays.sort(ArrayUtil.arr);
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] != ArrayUtil.getArr()[i]){
